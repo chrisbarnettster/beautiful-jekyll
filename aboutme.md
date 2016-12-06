@@ -1,16 +1,14 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle:
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+# Hi, I'm Chris Barnett!
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+I enjoy prototyping new data systems analysis solutions using tools like Django (Python), D3.js (javascript) and Jupyter Notebook.
+My background in simulation and system administration with a recent qualification in business systems analysis has provided a firm foundation for adventures in academia and data consulting.
 
-What else do you need?
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+# What else do you need
+Something missing or would you like know more about how my skills could be of value? Contact me via LinkedIn {{site.author.LinkedIn}} or see what's trending on Twitter {{site.author.Twitter}}

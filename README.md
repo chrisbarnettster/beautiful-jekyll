@@ -1,4 +1,45 @@
-# Beautiful Jekyll
+
+# This is the data for my website
+
+## Getting Started
+
+This should be serving at chrisbarnettster.github.io .
+
+To view the site and make changes locally I use jekyll running inside a Docker.
+
+```
+docker-compose up
+```
+but this needs updates to bundle and there are some space/permission issues. :|
+Riff off of https://github.com/jekyll/docker/issues/133, see Dockerfile update.
+In a windows powershell (I'm on my windows laptop alot...):
+```
+docker build -t pages .
+docker run  --rm  -it -p 4000:4000 -v "$(pwd):/srv/jekyll" pages
+``
+```
+Browse to localhost:4000
+
+## License
+
+The following directories and their contents are Copyright Chris Barnett. You may not reuse anything therein without my permission:
+
+* \_posts/
+* aboutme.md
+
+All other directories and files are MIT Licensed.
+
+Forked from https://github.com/daattali/beautiful-jekyll .
+I've inherited layout and ideas from  [Tom Preston-Werner](http://github.com/mojombo/jekyll) and [Sam Neirinck](https://github.com/samneirinck/samneirinck.github.io). The template is based on the official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
+
+
+If you find this useful please link back to
+http://github.com/chrisbarnettster/chrisbarnettser.github.io
+
+
+
+
+# Beautiful Jekyll Details
 
 > *Copyright 2016 [Dean Attali](http://deanattali.com). Licensed under the MIT license.*
 
@@ -199,12 +240,12 @@ Beautiful Jekyll is meant to be so simple to use that you can do it all within t
 3. Inside your repository folder, run:
 
     ```
-    docker run -p 4000:4000 -v `pwd`:/app mangar/jekyll:1.1 bash -c "bundle install; bundle exec jekyll serve"
+    "
     ```
 4. View your website at <http://localhost:4000>.
 
 Disclaimer: I personally am NOT using local development so I don't know much about running Jekyll locally. If you follow this route, please don't ask me questions because unfortunately I honestly won't be able to help!		
-  		  
+
 Aditionally, if you choose to deploy Jekyll using a local ruby installation, you can tell Jekyll to automatically categorize your blog posts by tags. You just need to set `link-tags: true` in `_config.yml`. Jekyll will then generate a new page for each unique tag which lists all of the posts that belong to that tag.
 
 
