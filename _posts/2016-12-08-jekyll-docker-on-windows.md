@@ -6,3 +6,4 @@ bigimg: /img/path.jpg
 ---
 
 TODO :)
+{{ site.time | date: "%B %-d, %Y" }}
