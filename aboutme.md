@@ -11,4 +11,5 @@ My background in simulation and system administration with a recent qualificatio
 
 
 # What else do you need
-Something missing or would you like know more about how my skills could be of value? Contact me via LinkedIn {{site.author.LinkedIn}} or see what's trending on Twitter {{site.author.Twitter}}
+Something missing or would you like know more about how my skills could be of value?
+<a href="https://twitter.com/intent/tweet?screen_name=think_za" class="twitter-mention-button" data-show-count="false">Tweet to @think_za</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
